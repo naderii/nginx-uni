@@ -43,16 +43,18 @@ secure-nginx-docker/
 ```
 ## 🔧 تنظیمات امنیتی پیاده‌سازی شده
 
-۱. پنهان‌سازی اطلاعات سرور
+### 1. پنهان‌سازی اطلاعات سرور
  - server_tokens off;
-۲. هدرهای امنیتی
+  
+### 2. هدرهای امنیتی
+
  - add_header X-Frame-Options "SAMEORIGIN";
  - add_header X-XSS-Protection "1; mode=block";
  - add_header X-Content-Type-Options "nosniff";
  - add_header Referrer-Policy "no-referrer-when-downgrade";
  - add_header Content-Security-Policy "default-src 'self'";
 
-۳. محدودیت دسترسی
+### 3. محدودیت دسترسی
 ## جلوگیری از لیست شدن دایرکتوری‌ها
 autoindex off;
 

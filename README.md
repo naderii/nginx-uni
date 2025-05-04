@@ -29,7 +29,7 @@ docker-compose up -d
 ```
 
 ## 🛠️ ساختار پروژه
-
+```bash
 secure-nginx-docker/
 ├── docker-compose.yml
 ├── nginx/
@@ -40,7 +40,7 @@ secure-nginx-docker/
 │   │   └── index.html      # صفحه پیش‌فرض
 │   └── logs/               # دایرکتوری لاگ‌ها
 └── README.md
-
+```
 ## 🔧 تنظیمات امنیتی پیاده‌سازی شده
 
 ۱. پنهان‌سازی اطلاعات سرور

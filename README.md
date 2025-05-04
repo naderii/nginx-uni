@@ -57,14 +57,14 @@ secure-nginx-docker/
 autoindex off;
 
 ### نمونه تنظیمات برای نمایش دایرکتوری
-
+```bash
 location /testdir/ {
     alias /usr/share/nginx/html/testdir/;
     autoindex on;
     autoindex_exact_size off;
     autoindex_localtime on;
 }
-
+```
 ## مسدودسازی فایل‌های مخفی و حساس
 location ~ /\. {
     deny all;

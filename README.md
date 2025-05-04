@@ -56,6 +56,15 @@ secure-nginx-docker/
 ## جلوگیری از لیست شدن دایرکتوری‌ها
 autoindex off;
 
+### نمونه تنظیمات برای نمایش دایرکتوری
+
+location /testdir/ {
+    alias /usr/share/nginx/html/testdir/;
+    autoindex on;
+    autoindex_exact_size off;
+    autoindex_localtime on;
+}
+
 ## مسدودسازی فایل‌های مخفی و حساس
 location ~ /\. {
     deny all;

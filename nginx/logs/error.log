@@ -1,0 +1,9 @@
+2025/05/04 05:08:25 [notice] 36#36: signal process started
+2025/05/04 05:09:20 [notice] 50#50: signal process started
+2025/05/04 05:11:27 [notice] 64#64: signal process started
+2025/05/04 05:17:50 [notice] 78#78: signal process started
+2025/05/04 05:19:34 [notice] 92#92: signal process started
+2025/05/04 05:23:44 [notice] 106#106: signal process started
+2025/05/04 05:24:22 [notice] 121#121: signal process started
+2025/05/04 05:24:46 [notice] 135#135: signal process started
+2025/05/04 05:24:47 [error] 141#141: *13 directory index of "/usr/share/nginx/html/testdir/" is forbidden, client: 172.19.0.1, server: localhost, request: "GET /testdir/ HTTP/1.1", host: "127.0.0.1"

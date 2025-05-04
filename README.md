@@ -53,10 +53,10 @@ secure-nginx-docker/
  - add_header Content-Security-Policy "default-src 'self'";
 
 ۳. محدودیت دسترسی
-# جلوگیری از لیست شدن دایرکتوری‌ها
+## جلوگیری از لیست شدن دایرکتوری‌ها
 autoindex off;
 
-# مسدودسازی فایل‌های مخفی و حساس
+## مسدودسازی فایل‌های مخفی و حساس
 location ~ /\. {
     deny all;
     access_log off;
